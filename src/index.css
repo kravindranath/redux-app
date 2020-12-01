@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button{
+  padding: 3px 4px;
+  margin: 2px;
+  border:1px solid #ececec;
+}
+.minus, .plus{
+  width:40px;
+  height: 40px;
+  font-size:18px;
+}
+.msg{
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.app{
+  margin:40px;
+}
