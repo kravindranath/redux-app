@@ -1,9 +1,11 @@
 import ACTION_TYPES from '../constants/actions'
 
-function addToDo(text) {
+export function addToDo(text) {
     return {
         type: ACTION_TYPES.ADD_TODO,
-        payload: text
+        payload: {
+            text: text
+        }
     }
 }
 
