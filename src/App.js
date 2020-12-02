@@ -1,24 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function App() {
 
-  function incrementCount(){
-    setState((prevState)=>{
-      return prevState + 1;
-    })
-  }
-
-  function decrementCount(){
-    setState((prevState)=>{
-      return prevState  - 1;
-    })
-  }
-
-  const [ count, setState ] = useState(1);
-  
   return (
     <div className="app">
-      <div className="msg">You clicked {count} times </div>
+      <div className="msg">You clicked -- times </div>
       <button className="button plus" type="button" onClick={ () => incrementCount() }>
         +
       </button>
